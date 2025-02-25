@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input types</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h2>Caja de texto</h2>
+    <label for="name">Ingresa tu nombre</label>
+    <input type="text">
+    <h2>Ingreso password</h2>
+    <input type="password"/> 
+    <div>
+        <label for="pass">Password (8 caracteres minimo:)</label>
+        <input type="password" id="pass" name="password" maxlength="8" required/>
+        <input type="password" id="pass" name="password" minlength="8" required/>
+    </div>
+    <p>
+        URL: <input type="url" name="url_control" placeholder="Escribe la URL de tu pagina"/>
+    </p>
+    <p>
+        Mes: <input type="month" name="moth_control"/>
+    </p>
+    <p>
+        Semana: <input type="week" name="week_control"/>
+    </p>
+    <p>
+        Color favorito: <input type="color" name="color_control"/>
+    </p>
+    <h2>Insertar boton</h2>
+    <input type="button"/>
+    <h2>Insertar checkbox</h2>
+    <input type="checkbox">
+    <h2>Insertar opcion</h2>
+    <input type="radio"/>
+    <h2>Boton de enviar</h2>
+    <input type="submit"/>
+    <h2>Inserta una caja para fecha (calendario)</h2>
+    <input type="date"/>
+    <h2>Se muestra un cronometro</h2>
+    <input type="time">
+    <h2>Boton para subir archivo</h2>
+    <input type="file">
+    <h2>Este es el enlace para la pagina</h2>
+    <input type="image" id="image" alt="Login" src="imagen/login-icon-vector.jpg">
+    <h2>Inserta una poplist para numeros</h2>
+    <input type="number">
+    <h2>Inserta una poplist para numeros de 0 a 10</h2>
+    <input type="number" id="number" name="number" min="0" max="10">
+
+    <footer>
+        <p>&copy; 2025 Karen. Todos los derechos reservados.</p>
+        <p><a href="contacto.html">Contáctanos</a></p>
+        <p><a href="privacidad.html">Política de privacidad</a></p>
+    </footer>
+</body>
+</html>
