@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4e342e, #8d6e63);
+    margin: 20px;
+    padding: 20px;
+}
+
+form {
+    background: #d7ccc8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    max-width: 500px;
+}
+
+h2 {
+    color: #9a837f;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    color: #431f0d;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #795548;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #efebe9;
+}
+
+input[type="color"],
+input[type="submit"],
+input[type="button"],
+input[type="checkbox"],
+input[type="radio"] {
+    width: auto;
+    cursor: pointer;
+}
+
+input[type="submit"],
+input[type="button"] {
+    background-color: #6d4c41;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background-color: #4e342e;
+}
+
+input[type="file"] {
+    border: none;
+    background-color: #a1887f;
+}
+
+input[type="image"] {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+div {
+    background: #bcaaa4;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
