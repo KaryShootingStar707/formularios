@@ -1,41 +1,59 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(to right, #4e342e, #8d6e63);
-    margin: 20px;
+    margin: 0;
     padding: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
 }
+
 
 form {
-    background: #d7ccc8;
-    padding: 20px;
+    background: #ffffff; 
+    padding: 30px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    width: 50%;
-    max-width: 500px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    box-sizing: border-box;
 }
 
+
 h2 {
-    color: #9a837f;
-    text-align: center;
+    color: #4e342e;
+    text-align: left;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    font-weight: 600;
 }
+
 
 label {
     font-weight: bold;
     display: block;
     margin-top: 10px;
     color: #431f0d;
+    font-size: 1.1em;
 }
+
 
 input {
     width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 15px;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 20px;
     border: 1px solid #795548;
-    border-radius: 5px;
+    border-radius: 8px;
     font-size: 16px;
-    background-color: #efebe9;
+    background-color: #f5f5f5;
+    transition: border-color 0.3s ease;
 }
+
 
 input[type="color"],
 input[type="submit"],
@@ -51,33 +69,76 @@ input[type="button"] {
     background-color: #6d4c41;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 12px 30px;
     font-size: 16px;
-    transition: background-color 0.3s;
-    border-radius: 5px;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+    display: inline-block;
 }
 
 input[type="submit"]:hover,
 input[type="button"]:hover {
     background-color: #4e342e;
+    transform: scale(1.05);
 }
+
 
 input[type="file"] {
     border: none;
     background-color: #a1887f;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
 }
+
 
 input[type="image"] {
-    width: 100px;
+    width: 120px;
     height: auto;
-    border-radius: 10px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
 }
 
+input[type="image"]:hover {
+    transform: scale(1.1);
+}
+
+
+input[type="number"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
 div {
-    background: #bcaaa4;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 15px;
+    background: #f2e5d7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #fff;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #ffb74d;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
